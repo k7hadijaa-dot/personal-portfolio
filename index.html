@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- style link -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- bootstrap link -->
+     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <!-- javascript link -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    
+    <!-- icon cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <style>
+       
+    </style>
+</head>
+<body>
+    <!-- Epic Neural Background -->
+    <div class="neural-background"></div>
+    
+    <!-- Floating Geometric Shapes -->
+    <div class="geometric-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Neural Network Lines -->
+    <div class="neural-lines">
+        <div class="neural-line"></div>
+        <div class="neural-line"></div>
+        <div class="neural-line"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="glass">
+        <nav>
+            <a href="#home" class="logo">
+                
+            <svg class="logo-icon" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#e0a3ff"/>
+            <stop offset="50%" stop-color="#ff69b4"/>
+            <stop offset="100%" stop-color="#9370db"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Monitor outer body -->
+    <rect x="8" y="6" width="104" height="68" rx="6" ry="6"
+        fill="none"
+        stroke="url(#logoGradient)"
+        stroke-width="3.5"/>
+
+    <!-- Screen inner area -->
+    <rect x="15" y="13" width="90" height="54" rx="3" ry="3"
+        fill="url(#logoGradient)"
+        opacity="0.15"/>
+
+    <!-- Screen shine line -->
+    <line x1="20" y1="18" x2="40" y2="18"
+        stroke="url(#logoGradient)"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        opacity="0.5"/>
+
+    <!-- Power dot -->
+    <circle cx="98" cy="58" r="2.5"
+        fill="url(#logoGradient)"
+        opacity="0.7"/>
+
+    <!-- Stand neck -->
+    <rect x="53" y="74" width="14" height="14" rx="2" ry="2"
+        fill="url(#logoGradient)"
+        opacity="0.8"/>
+
+    <!-- Base -->
+    <rect x="33" y="88" width="54" height="8" rx="4" ry="4"
+        fill="url(#logoGradient)"
+        opacity="0.9"/>
+</svg>
+
+                khadija
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">About Me</a></li>
+                <li><a href="#showcase">Skills</a></li>
+                <li><a href="#timeline">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+        </nav>
+        <div class="mobile-nav">
+            <a href="#home">Home</a>
+            <a href="#features">About Me</a>
+            <a href="#showcase">Skills</a>
+            <a href="#timeline">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- Section 1: Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-subtitle">Welcome to my Portfolio</div>
+            <h1>I am Khadija</h1>
+            
+            <!-- typed text -->
+            <p>I am a <span id="typed-text"></span></p>
+
+            <div class="hero-description">
+                <p>I’m a beginner frontend developer exploring the world of modern web design. I enjoy creating simple, beautiful, and responsive layouts while improving my skills every day.</p>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="#timeline" class="cta-button">Projects</a>
+                <a href="#contact" class="cta-button secondary">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: About Me -->
+    <section class="features about-me" id="features">
+        <div class="features-container container">
+            <h2 class="section-title">About Me</h2>
+            <div class="diagonal-grid">
+                <div class="about-row">
+                    <div class="about-image">
+                        <img src="images/image.webp" alt="About Me">
+                    </div>
+                    <div class="about-text glass">
+                        <h3>Hello, I'm Khadija</h3>
+                        <p>I'm a curious learner and passionate creator, exploring ideas through coding, design, and problem-solving.</p>
+                        <p>I focus on continuous learning and aim to build clean, impactful projects using modern web technologies.</p>
+                        <p>I enjoy turning creative ideas into functional experiences while refining both logic and aesthetics.</p>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Skills Hexagonal Showcase -->
+    <section class="showcase" id="showcase">
+        <h2 class="section-title">SKILLS</h2>
+        <div class="hexagon-container">
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fa fa-file-word icon word"></i></div>
+                    <h4>MS Word</h4>
+                    <p>Building bridges with every word</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fa fa-file-excel icon excel"></i></div>
+                    <h4>MS Excel</h4>
+                    <p>Where logic meets creativity</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fa fa-file-powerpoint icon powerpoint"></i></div>
+                    <h4>MS Powerpoint</h4>
+                    <p>Turning concepts into experiences</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fa fa-file-alt icon inpage"></i></div>
+                    <h4>INPAGE</h4>
+                    <p>Shaping stories with style and grace</p>
+                </div>
+             </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fab fa-html5 icon html5"></i></div>
+                    <h4>HTML 5</h4>
+                    <p>Structuring the web’s foundation</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fab fa-css3 icon css3"></i></div>
+                    <h4>CSS 3</h4>
+                    <p>Painting pixels with precision</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fab fa-bootstrap icon bootstrap"></i></div>
+                    <h4>Bootstrap</h4>
+                    <p>Building responsive dreams effortlessly</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fab fa-js icon javascript"></i></div>
+                    <h4>JavaScript</h4>
+                    <p>Making web pages come alive</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fab fa-js icon jquery"></i></div>
+                    <h4>jQuery</h4>
+                    <p>Simplifying JavaScript interactions</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fas fa-database icon mysqli"></i></div>
+                    <h4>MySQLi</h4>
+                    <p>Efficient database management with PHP</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fas fa-database icon database"></i></div>
+                    <h4>Database</h4>
+                    <p>Organizing and managing data efficiently</p>
+                </div>
+            </div>
+            <div class="hexagon">
+                <div class="hexagon-inner glass">
+                    <div class="hexagon-icon"><i class="fab fa-php icon php"></i></div>
+                    <h4>PHP</h4>
+                    <p>Building dynamic and interactive web applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Projects -->
+    <section class="timeline" id="timeline">
+        <h2 class="section-title">My Projects</h2>
+        <div class="timeline-container">
+            <!-- mid-navigation -->
+        <div class="container d-flex justify-content-center mt-5">
+            <ul class="nav nav-tab flex-wrap justify-content-center">
+                <li class="nav-item me-3 "><a href="#all" class="nav-link active" data-bs-toggle="tab">All</a></li>
+                <li class="nav-item me-3"><a href="#one" class="nav-link" data-bs-toggle="tab">CSS</a></li>
+                <li class="nav-item me-3"><a href="#two" class="nav-link" data-bs-toggle="tab">Javascript</a></li>
+                <li class="nav-item me-3"><a href="#three" class="nav-link" data-bs-toggle="tab">Bootstrap</a></li>
+                <li class="nav-item me-3"><a href="#four" class="nav-link" data-bs-toggle="tab">Apps</a></li>
+                <!-- <li class="nav-item me-3"><a href="#five" class="nav-link" data-bs-toggle="tab"></a></li>  -->
+            </ul>
+        </div>
+            <!-- tab content -->
+            <div class="tab-content">
+                <!-- All -->
+                 <div class="tab-pane show active m-5" id="all">
+                    <h2 class="text-center mb-5">All Projects</h2>
+                    <p class="text-center mb-4"></p>
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/css project.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/bootstrap project.mp4" controls></video></div>
+                    </div>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/lucky draw.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/to do list.mp4" controls></video></div>
+                    </div>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/calculator.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/Quiz.mp4" controls></video></div>
+                    </div>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/weather app.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/crud app.mp4" controls></video></div>
+                    </div>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/authentication.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/flower image gallery.mp4" controls></video></div>
+                    </div>
+                </div>
+
+                <!-- CSS -->
+                <div class="tab-pane m-5" id="one">
+                    <h2 class="text-center mb-5">CSS Projects</h2>
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/css project.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"></div>
+                    </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="tab-pane m-5" id="two">
+                    <h2 class="text-center mb-5">JavaScript Projects</h2>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/lucky draw.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/to do list.mp4" controls></video></div>
+                    </div>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/calculator.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/Quiz.mp4" controls></video></div>
+                    </div>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/weather app.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/flower image gallery.mp4" controls></video></div>
+                    </div>
+                </div>
+
+                <!-- Bootstrap -->
+                <div class="tab-pane m-5" id="three">
+                    <h2 class="text-center mb-5">Bootstrap Project</h2>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/bootstrap project.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/flower image gallery.mp4" controls></video></div>
+                    </div>
+                </div>
+
+                <!-- Apps -->
+                <div class="tab-pane m-5" id="four">
+                    <h2 class="text-center mb-5">Apps</h2>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/crud app.mp4" controls></video></div>
+                        <div class="col-12 col-sm-6 col-md-6 midnav"><video src="videos/authentication.mp4" controls></video></div>
+                    </div>
+                </div>
+
+                <!-- More -->
+                <div class="tab-pane m-5" id="five">
+                    <h2 class="text-center mb-5"></h2>
+                    <!-- <div class="row g-3">
+                        <div class="col-12 col-sm-6 col-md-4 midnav"></div>
+                        <div class="col-12 col-sm-6 col-md-4 midnav"></div>
+                        <div class="col-12 col-sm-6 col-md-4 midnav"></div>
+                    </div>
+                    <div class="row g-3 mt-2">
+                        <div class="col-12 col-sm-6 col-md-4 midnav"></div>
+                        <div class="col-12 col-sm-6 col-md-4 midnav"></div>
+                        <div class="col-12 col-sm-6 col-md-4 midnav"></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info glass">
+                <h3>Get In Touch</h3>
+                <p>Have a question or want to collaborate? 
+                    Feel free to drop us a message and we’ll get back to you as soon as possible.</p>
+                <p>We value your ideas and feedback. Whether it’s a question, suggestion, or just a hello, we’re here to listen.</p>
+
+                <div class="social-links">
+                    <p class="mb-3"><b>Email:</b> k7hadijaa@gmail.com</p>
+                    <a href="https://www.linkedin.com/in/khadija-khan-b3b5ab389" class="glass linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form glass" action="https://formspree.io/f/xlgewroa" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" name="message" placeholder="Your Message..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+            <div class="footer-copyright">
+                <p>Designed By: Khadija Akmal</p>
+            </div>
+    </footer>
+
+    <!-- script link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
